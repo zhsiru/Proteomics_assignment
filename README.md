@@ -15,3 +15,20 @@ Plot a manhattan plot to visualize genome-wide significant loci. (tips, use r pa
 -4. Take the cis-pQTL for OAS1 from question 3. Now we want to know if this cis-pQTL happens to also associate with some disease outcomes, say, COVID-19. Check this cis-pQTL in an iterative browser of COVID-19 GWAS: https://app.covid19hg.org/, select phenotype A2 (Critically ill COVID-19). What do you find?
 (tips: COVID-19 GWAS browser searches by SNP position, however, the position of a SNP is based on the version of human reference genome. For the SNP with the same RS ID, the positions on the hg19 reference and the hg38 reference are not the same. Hg19 and hg38 are the most commonly used reference, and you need to be careful about it when searching in the UCSC genome browser too.
 The proteomic paper and GWAS uses the hg19 reference, and HGI browser uses the hg38 reference.)
+
+--------------------------------------------------------------------
+Header explanations for the protein GWAS summary statistics are below:
+rsid: SNP RS ID
+MarkerName: Marker name in the format of chromosome, position, first and second allele
+Allele1: First allele
+Allele2: Second allele
+Freq1: Frequency of the first allele
+Effect: Effect of the first allele on outcome
+StdErr: SE
+Pvalue: P value
+TotalSampleSize: sample size
+chr: chromosome
+pos: position
+
+
+
