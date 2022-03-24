@@ -2,7 +2,7 @@ Read a recently published proteomic paper (Mapping the proteo-genomic convergenc
 
 (Tips: ask google if you are not sure of R coding, terminologies. If you are not sure of the answer to some questions, write down your best guess and approaches you’ve taken for this question)
 
--1. Look into the supplementary tables (science.abj1541_tables_s1_to_s9.xlsx) to find for a protein called SP-D, how many independent cis-pQTLs and trans-pQTLs it has. What’s the difference between a cis-pQTL and a trans-pQTL?
+-1. Look into the supplementary tables (science.abj1541_tables_s1_to_s9.xlsx) to find for a protein called SP-D, how many independent cis-pQTLs and trans-pQTLs does SP-D have? What’s the difference between a cis-pQTL and a trans-pQTL?
 
 -2. Load a partial GWAS summary statistics for a protein from the above paper (res_invn_X10361_25_0.1MAF.0.05p.short.txt.gz) into your R studio, and answer the following questions.
 How many SNPs are in this file?
