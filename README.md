@@ -1,6 +1,6 @@
 Read a recently published proteomic paper (Mapping the proteo-genomic convergence of human diseases (science.abj1541.pdf)) and complete the following tasks/questions.
 
-(Tips: ask google if you are not sure of R coding, terminologies. If you are not sure of the answer to some questions, write down your best guess and approaches you’ve taken try to get the answer to this question)
+(Tips: ask google if you are not sure of R coding, terminologies. If you are not sure of the answer to some questions, write down your best guess and approaches you’ve taken for this question)
 
 -1. Look into the supplementary tables (science.abj1541_tables_s1_to_s9.xlsx) to find for a protein called SP-D, how many independent cis-pQTLs and trans-pQTLs it has. What’s the difference between a cis-pQTL and a trans-pQTL?
 
