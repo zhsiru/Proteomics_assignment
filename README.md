@@ -7,27 +7,42 @@ Read a recently published proteomic paper (Mapping the proteo-genomic convergenc
 -2. Load a partial GWAS summary statistics for a protein from the above paper (res_invn_X10361_25_0.1MAF.0.05p.short.txt.gz) into your R studio, and answer the following questions.
 How many SNPs are in this file?
 How many genome-wide significant SNPs (p value < 5 x 10-8) are in this file?
-Plot a manhattan plot to visualize genome-wide significant loci. (tips, use r package “qqman”: https://r-graph-gallery.com/101_Manhattan_plot.html) How many genome-wide significant loci are in this file? For each of the genome-wide significant loci, what is the most significant SNP?
+Plot a manhattan plot to visualize genome-wide significant loci. 
+
+(tips, use r package “qqman”: https://r-graph-gallery.com/101_Manhattan_plot.html) How many genome-wide significant loci are in this file? For each of the genome-wide significant loci, what is the most significant SNP?
 
 -3. Now that you have identified N? genome-wide significant loci for this protein GWAS. We know that this protein is called OAS1. How many of these genome-wide significant loci are in cis (SNPs in these loci are called “cis-pQTL”), and how many of these loci are in trans? Which of those most significant SNPs (from question 2) is the cis-pQTL?
+
 (tips: refer the cis/trans definitions in the paper, and you can use UCSC genome browser https://genome.ucsc.edu/cgi-bin/hgGateway, to check where your genome-wide significant SNPs for these loci located).
 
 -4. Take the cis-pQTL for OAS1 from question 3. Now we want to know if this cis-pQTL happens to also associate with some disease outcomes, say, COVID-19. Check this cis-pQTL in an iterative browser of COVID-19 GWAS: https://app.covid19hg.org/, select phenotype A2 (Critically ill COVID-19). What do you find?
+
 (tips: COVID-19 GWAS browser searches by SNP position, however, the position of a SNP is based on the version of human reference genome. For the SNP with the same RS ID, the positions on the hg19 reference and the hg38 reference are not the same. Hg19 and hg38 are the most commonly used reference, and you need to be careful about it when searching in the UCSC genome browser too.
 The proteomic paper and GWAS uses the hg19 reference, and HGI browser uses the hg38 reference.)
 
 --------------------------------------------------------------------
 Header explanations for the protein GWAS summary statistics are below:
+
 rsid: SNP RS ID
+
 MarkerName: Marker name in the format of chromosome, position, first and second allele
+
 Allele1: First allele
+
 Allele2: Second allele
+
 Freq1: Frequency of the first allele
+
 Effect: Effect of the first allele on outcome
+
 StdErr: SE
+
 Pvalue: P value
+
 TotalSampleSize: sample size
+
 chr: chromosome
+
 pos: position
 
 
