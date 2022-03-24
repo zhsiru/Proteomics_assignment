@@ -4,7 +4,7 @@ Read a recently published proteomic paper (Mapping the proteo-genomic convergenc
 
 -1. Look into the supplementary tables (science.abj1541_tables_s1_to_s9.xlsx) to find for a protein called SP-D, how many independent cis-pQTLs and trans-pQTLs it has. What’s the difference between a cis-pQTL and a trans-pQTL?
 
--2. Load a partial GWAS summary statistics for a protein from the above paper (res_invn_X10361_25_Fenland_MA_auto_chrX_filtered_1pc.0.1MAF.0.05p.short.txt.gz) into your R studio, and answer the following questions.
+-2. Load a partial GWAS summary statistics for a protein from the above paper (res_invn_X10361_25_0.1MAF.0.05p.short.txt.gz) into your R studio, and answer the following questions.
 How many SNPs are in this file?
 How many genome-wide significant SNPs (p value < 5 x 10-8) are in this file?
 Plot a manhattan plot to visualize genome-wide significant loci. (tips, use r package “qqman”: https://r-graph-gallery.com/101_Manhattan_plot.html) How many genome-wide significant loci are in this file? For each of the genome-wide significant loci, what is the most significant SNP?
